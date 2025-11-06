@@ -12,6 +12,8 @@ public class SurvivalMod : MonoBehaviour
 
     public Damageable playerDamageable;
     
+    public SurvivalInventory survivalInventory;
+    
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,7 +26,7 @@ public class SurvivalMod : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1) && survivalInventory.waterBottles > 0)
         {
             DrinkWater();
         }
@@ -64,6 +66,8 @@ public class SurvivalMod : MonoBehaviour
             }
             
         }
+        
+      
 
     }
 
@@ -73,6 +77,7 @@ public class SurvivalMod : MonoBehaviour
         playerDamageable.ResetDamage();
         thirsty = false;
         parched = false;
+        survivalInventory.waterBottles--;
     }
     
 }
