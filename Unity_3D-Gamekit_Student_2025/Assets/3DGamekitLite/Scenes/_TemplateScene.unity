@@ -2307,6 +2307,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 720428571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &114741885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4096395009163026, guid: ae81845ceb8900c4db0f8898c8c098e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1741214059}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &122151561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14929,7 +14935,7 @@ MonoBehaviour:
       Data4: -6868842
     Path: event:/AmbEvening
   Event: 
-  EventPlayTrigger: 1
+  EventPlayTrigger: 0
   EventStopTrigger: 2
   AllowFadeout: 1
   TriggerOnce: 0
@@ -21200,15 +21206,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.840012
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.9929976
+      value: 1.8800001
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 62.059998
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.w
@@ -24687,6 +24693,52 @@ PrefabInstance:
     - target: {fileID: 4823830900955444, guid: ae81845ceb8900c4db0f8898c8c098e5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114446437038320956, guid: ae81845ceb8900c4db0f8898c8c098e5,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114446437038320956, guid: ae81845ceb8900c4db0f8898c8c098e5,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114446437038320956, guid: ae81845ceb8900c4db0f8898c8c098e5,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: f0d61a0f6dc044bfaa6b783996e1c455,
+        type: 2}
+    - target: {fileID: 114446437038320956, guid: ae81845ceb8900c4db0f8898c8c098e5,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114446437038320956, guid: ae81845ceb8900c4db0f8898c8c098e5,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DoorSwitchPlay
+      objectReference: {fileID: 0}
+    - target: {fileID: 114446437038320956, guid: ae81845ceb8900c4db0f8898c8c098e5,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: InteractablesAudio, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114446437038320956, guid: ae81845ceb8900c4db0f8898c8c098e5,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 114741885}
+    - target: {fileID: 114446437038320956, guid: ae81845ceb8900c4db0f8898c8c098e5,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Activate
+      objectReference: {fileID: 0}
+    - target: {fileID: 114446437038320956, guid: ae81845ceb8900c4db0f8898c8c098e5,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 114479989900120930, guid: ae81845ceb8900c4db0f8898c8c098e5,
         type: 3}
