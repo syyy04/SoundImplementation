@@ -21,22 +21,22 @@ MonoBehaviour:
     Path: event:/HealthPickup
   boxDestroyEvent:
     Guid:
+      Data1: 44726934
+      Data2: 1090160061
+      Data3: -561800541
+      Data4: 1820972254
+    Path: event:/BoxDestroy
+  doorSwitchEvent:
+    Guid:
       Data1: 1232401005
       Data2: 1120457120
       Data3: -298413179
       Data4: 1004050918
     Path: event:/DoorSwitch
-  doorSwitchEvent:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
   pressurePlateEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1794249545
+      Data2: 1334558014
+      Data3: 131761542
+      Data4: -1905810316
+    Path: event:/PressurePad

@@ -16,10 +16,10 @@ public class InteractablesAudio : ScriptableObject
         RuntimeManager.PlayOneShot(pickupHealthEvent);
     }
 
-    public void BoxDestroyPlay(Transform t)
+    public void BoxDestroyPlay(Transform transform)
     {
         // Calls the method PlayOneShot with reference to the boxDestroyEvent at the transform's position, which is a Vector3 variable contained in the Transform class.
-        RuntimeManager.PlayOneShot(boxDestroyEvent, t.position);
+        RuntimeManager.PlayOneShot(boxDestroyEvent, transform.position);
     }
 
     public void DoorSwitchPlay(Transform t)
