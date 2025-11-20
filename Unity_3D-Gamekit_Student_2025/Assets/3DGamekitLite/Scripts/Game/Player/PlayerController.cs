@@ -410,27 +410,27 @@ namespace Gamekit3D
 
             if (footfallCurve > 0.01f)
             {
-
+                Debug.Log("Is this a step?");
             }
 
-            if (m_IsGrounded && !m_PreviouslyGrounded)
+            if (m_IsGrounded && !m_PreviouslyGrounded) // Landing
             {
-
+                Debug.Log("Landing");
             }
 
-            if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
+            if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f) // Jumping
             {
-
+                Debug.Log("Jumping");
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
             {
-
+                Debug.Log("getting hurt");
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
             {
-
+                Debug.Log("you is dying");
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
@@ -438,7 +438,7 @@ namespace Gamekit3D
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo3 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3 ||
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
             {
-
+                Debug.Log("attack");
             }
         }
 
