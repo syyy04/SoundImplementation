@@ -527,7 +527,7 @@ namespace Gamekit3D
         {
             meleeWeapon.BeginAttack(throwing != 0);
             m_InAttack = true;
-            ellenAudio.AttackEventPlay(throwing);
+            ellenAudio.AttackEventPlay(throwing, meleeWeapon.attackAudio);
             //Debug.Log("Combo is: " + throwing);
             
             

@@ -1,15 +1,31 @@
+using FMOD.Studio;
 using UnityEngine;
 using FMODUnity;
-using Gamekit3D;
 
 [CreateAssetMenu(fileName = "CharacterAudio", menuName = "Scriptables/CharacterAudio")]
 public class CharacterAudio : ScriptableObject
 {
-    [SerializeField]
-    private EventReference attackEvent;
+    [SerializeField] private EventReference attackEvent, jumpEvent, landEvent, damageEvent;
 
-    public void AttackEventPlay(int comboValue)
+    private EventInstance attackEventInstance;
+
+    public void AttackEventPlay(int comboValue, GameObject obj)
     {
+        // Creating a EventInstance based on the information stored in the EventReference attackEvent
+        attackEventInstance = RuntimeManager.CreateInstance(attackEvent);
+        
+        // Attaches the EventInstance to a specific GameObject determined by our GameObject-parameter called "obj" and its Rigidbody
+        RuntimeManager.AttachInstanceToGameObject(attackEventInstance, obj, obj.GetComponent<Rigidbody>());
+
+        // Setting a FMOD-parameter with reference to its name and the value passed to the parameter comboValue
+        attackEventInstance.setParameterByName("Combo", comboValue);
+
+        // Starting/Playing the EventInstance
+        attackEventInstance.start();
+        
+        // Releases the EventInstance resources from memory
+        attackEventInstance.release();
+        
         Debug.Log("Combo is: " + comboValue);
     }
 }
