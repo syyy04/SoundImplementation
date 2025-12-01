@@ -26,6 +26,7 @@ namespace Gamekit3D
         public MeleeWeapon meleeWeapon;                  // Reference used to (de)activate the staff when attacking. 
         public GameObject footstepSource;         // Random Audio Players used for various situations.
         public GameObject voiceSource;
+        public CharacterAudio ellenAudio;
 
 
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
@@ -129,6 +130,7 @@ namespace Gamekit3D
         // Called automatically by Unity when the script first exists in the scene.
         void Awake()
         {
+            ellenAudio = GetComponent<CharacterAudioHolder>().ellenAudio;
             m_Input = GetComponent<PlayerInput>();
             m_Animator = GetComponent<Animator>();
             m_CharCtrl = GetComponent<CharacterController>();
@@ -415,7 +417,7 @@ namespace Gamekit3D
 
             if (m_IsGrounded && !m_PreviouslyGrounded) // Landing
             {
-                Debug.Log("Landing");
+                Debug.Log("Landed!");
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f) // Jumping
@@ -438,7 +440,7 @@ namespace Gamekit3D
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo3 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3 ||
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
             {
-                Debug.Log("attack");
+                
             }
         }
 
@@ -525,6 +527,10 @@ namespace Gamekit3D
         {
             meleeWeapon.BeginAttack(throwing != 0);
             m_InAttack = true;
+            ellenAudio.AttackEventPlay(throwing);
+            //Debug.Log("Combo is: " + throwing);
+            
+            
         }
 
         // This is called by an animation event when Ellen finishes swinging her staff.
