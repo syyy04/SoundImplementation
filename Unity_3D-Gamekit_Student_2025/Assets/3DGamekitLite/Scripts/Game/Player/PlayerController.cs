@@ -412,7 +412,7 @@ namespace Gamekit3D
 
             if (footfallCurve > 0.01f)
             {
-                Debug.Log("Is this a step?");
+                
             }
 
             if (m_IsGrounded && !m_PreviouslyGrounded) // Landing
@@ -520,6 +520,21 @@ namespace Gamekit3D
 
             // Send whether or not Ellen is on the ground to the animator.
             m_Animator.SetBool(m_HashGrounded, m_IsGrounded);
+        }
+        
+        
+        public void FootstepPlay()
+        {
+            Debug.DrawRay(footstepSource.transform.position, Vector3.down * 1f, Color.red, 2f);
+            RaycastHit hit;
+            if (Physics.Raycast(footstepSource.transform.position, Vector3.down, out hit, 1f))
+            {
+                Debug.Log("FootstepPlay on:" + hit.collider.gameObject.tag);  
+            }
+            else
+            {
+                Debug.Log("No hit...");
+            }
         }
         
         // This is called by an animation event when Ellen swings her staff.
