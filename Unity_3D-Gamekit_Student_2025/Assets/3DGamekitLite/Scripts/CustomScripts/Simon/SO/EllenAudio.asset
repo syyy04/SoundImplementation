@@ -19,3 +19,31 @@ MonoBehaviour:
       Data3: 1316395955
       Data4: 1106065663
     Path: event:/Avatar/PlayerMelee
+  footstepEvent:
+    Guid:
+      Data1: 1835994214
+      Data2: 1118621227
+      Data3: 1109091203
+      Data4: 622379802
+    Path: event:/Avatar/PlayerFootsteps
+  jumpEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  landEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  damageEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 

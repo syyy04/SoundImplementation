@@ -529,7 +529,9 @@ namespace Gamekit3D
             RaycastHit hit;
             if (Physics.Raycast(footstepSource.transform.position, Vector3.down, out hit, 1f))
             {
-                Debug.Log("FootstepPlay on:" + hit.collider.gameObject.tag);  
+                Debug.Log("FootstepPlay on:" + hit.collider.tag);                  
+                ellenAudio.FootstepEventPlay(hit.collider.tag, footstepSource);
+
             }
             else
             {

@@ -5,9 +5,9 @@ using FMODUnity;
 [CreateAssetMenu(fileName = "CharacterAudio", menuName = "Scriptables/CharacterAudio")]
 public class CharacterAudio : ScriptableObject
 {
-    [SerializeField] private EventReference attackEvent, jumpEvent, landEvent, damageEvent;
+    [SerializeField] private EventReference attackEvent, footstepEvent, jumpEvent, landEvent, damageEvent;
 
-    private EventInstance attackEventInstance;
+    private EventInstance attackEventInstance, footstepEventInstance, jumpEventInstance, landEventInstance, damageEventInstance;
 
     public void AttackEventPlay(int comboValue, GameObject obj)
     {
@@ -39,5 +39,37 @@ public class CharacterAudio : ScriptableObject
         
         
         
+    }
+
+    public void FootstepEventPlay(string surfaceTag, GameObject obj)
+    {
+        if (footstepEvent.IsNull)
+        {
+            Debug.LogWarning("Event not found: footstepEvent");
+        }
+        else
+        {
+            footstepEventInstance = RuntimeManager.CreateInstance(footstepEvent);
+            RuntimeManager.AttachInstanceToGameObject(footstepEventInstance, obj, obj.GetComponent<Rigidbody>());
+
+            // A switch statement that compares the surfaceTag and its content, and sets the Surface parameter with a unique value based on this
+            switch (surfaceTag)
+            {
+                case "Grass":
+                    footstepEventInstance.setParameterByName("Surface", 0f);
+                    break;
+                case "BloodLake":
+                    footstepEventInstance.setParameterByName("Surface", 1f);
+                    break;
+                default:
+                    footstepEventInstance.setParameterByName("Surface", 0f);
+                    break;
+                
+                // TODO: Add more cases as needed for different surface types
+            }
+            
+            footstepEventInstance.start();
+            footstepEventInstance.release();
+        }
     }
 }
