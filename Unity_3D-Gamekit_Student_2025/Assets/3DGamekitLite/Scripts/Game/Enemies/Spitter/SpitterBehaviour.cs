@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _3DGamekitLite.Scripts.CustomScripts.Simon;
 using Gamekit3D.Message;
 using UnityEditor;
 using UnityEngine;
@@ -32,6 +33,7 @@ namespace Gamekit3D
         public GameObject frontStepSource;
         public GameObject backStepSource;
         public GameObject hitSource;
+        public EnemyAudio spitterAudio;
 
         public EnemyController controller { get { return m_Controller; } }
         public PlayerController target { get { return m_Target; } }
@@ -44,6 +46,8 @@ namespace Gamekit3D
 
         protected void OnEnable()
         {
+            spitterAudio = GetComponent<EnemyAudioHolder>().enemyAudio;
+            
             m_Controller = GetComponentInChildren<EnemyController>();
 
             m_Controller.animator.Play(hashIdleState, 0, Random.value);
@@ -69,6 +73,8 @@ namespace Gamekit3D
 
         public void Death(Damageable.DamageMessage msg)
         {
+            spitterAudio.DieEventPlay(hitSource);
+            
             Vector3 pushForce = transform.position - msg.damageSource;
 
             pushForce.y = 0;
@@ -112,6 +118,7 @@ namespace Gamekit3D
         public void TriggerAttack()
         {
             m_Controller.animator.SetTrigger(hashAttack);
+            spitterAudio.SpitAttackEventPlay(attackSource);
         }
 
         public void RememberTargetPosition()
@@ -122,6 +129,10 @@ namespace Gamekit3D
             m_RememberedTargetPosition = m_Target.transform.position;
         }
 
+        /// <summary>
+        /// Called by animation events.
+        /// </summary>
+        /// <param name="frontFoot">Has a value of 1 when it's a front foot stepping and 0 when it's a back foot.</param>
         void PlayStep(int frontFoot)
         {
 

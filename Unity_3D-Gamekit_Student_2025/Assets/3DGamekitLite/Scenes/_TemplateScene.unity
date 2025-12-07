@@ -9079,11 +9079,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114290622220327500, guid: e9569c7e13e51264082910415a120d38,
+        type: 3}
+      propertyPath: backStepSource
+      value: 
+      objectReference: {fileID: 509602610}
+    - target: {fileID: 114290622220327500, guid: e9569c7e13e51264082910415a120d38,
+        type: 3}
+      propertyPath: frontStepSource
+      value: 
+      objectReference: {fileID: 509602611}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9569c7e13e51264082910415a120d38, type: 3}
+--- !u!1 &509602610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1314737234912816, guid: e9569c7e13e51264082910415a120d38,
+    type: 3}
+  m_PrefabInstance: {fileID: 509602609}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &509602611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1012471776981518, guid: e9569c7e13e51264082910415a120d38,
+    type: 3}
+  m_PrefabInstance: {fileID: 509602609}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &514941214
 Mesh:
   m_ObjectHideFlags: 0
@@ -13670,6 +13692,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114818483862689138, guid: 3ac2dd7eaceaa504dbb1b175fcef06a2,
+        type: 3}
+      propertyPath: rangeWeapon
+      value: 
+      objectReference: {fileID: 1079415735}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15884,11 +15911,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114818483862689138, guid: 3ac2dd7eaceaa504dbb1b175fcef06a2,
+        type: 3}
+      propertyPath: hitSource
+      value: 
+      objectReference: {fileID: 1079415734}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ac2dd7eaceaa504dbb1b175fcef06a2, type: 3}
+--- !u!1 &1079415734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1890070172687782, guid: 3ac2dd7eaceaa504dbb1b175fcef06a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1079415733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1079415735 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114662184025807022, guid: 3ac2dd7eaceaa504dbb1b175fcef06a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1079415733}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a16fbab0c6a57e43ae3d1658c4feded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1082752251
 Mesh:
   m_ObjectHideFlags: 0
@@ -21615,6 +21665,11 @@ PrefabInstance:
       propertyPath: cameraSettings
       value: 
       objectReference: {fileID: 34643024}
+    - target: {fileID: 199664493192749804, guid: 9d620787554a948e3876fe7dbdba24e8,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26215,15 +26270,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.840012
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.9929976
+      value: 1.8800001
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 62.059998
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.w

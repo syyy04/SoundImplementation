@@ -1,4 +1,5 @@
-﻿using Gamekit3D.Message;
+﻿using _3DGamekitLite.Scripts.CustomScripts.Simon;
+using Gamekit3D.Message;
 using UnityEngine;
 
 namespace Gamekit3D
@@ -38,6 +39,7 @@ namespace Gamekit3D
         public GameObject hitSource;
         public GameObject frontStepSource;
         public GameObject backStepSource;
+        public EnemyAudio chomperAudio;
 
         protected float m_TimerSinceLostTarget = 0.0f;
 
@@ -47,6 +49,8 @@ namespace Gamekit3D
 
         protected void OnEnable()
         {
+            chomperAudio = GetComponent<EnemyAudioHolder>().enemyAudio;
+            
             m_Controller = GetComponentInChildren<EnemyController>();
 
             originalPosition = transform.position;
@@ -201,6 +205,7 @@ namespace Gamekit3D
         public void AttackBegin()
         {
             meleeWeapon.BeginAttack(false);
+            chomperAudio.BiteAttackEventPlay(attackSource);
         }
 
         public void AttackEnd()
@@ -225,6 +230,8 @@ namespace Gamekit3D
 
         public void Death(Damageable.DamageMessage msg)
         {
+            chomperAudio.DieEventPlay(hitSource);
+            
             Vector3 pushForce = transform.position - msg.damageSource;
 
             pushForce.y = 0;

@@ -1,6 +1,9 @@
 using UnityEngine;
 
-public class CharacterAudioHolder : MonoBehaviour
+namespace _3DGamekitLite.Scripts.CustomScripts.Simon
 {
-    [SerializeField] public CharacterAudio ellenAudio;
+    public class CharacterAudioHolder : MonoBehaviour
+    {
+        [SerializeField] public CharacterAudio ellenAudio;
+    }
 }

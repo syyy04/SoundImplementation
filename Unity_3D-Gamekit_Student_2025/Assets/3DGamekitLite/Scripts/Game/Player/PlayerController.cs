@@ -1,6 +1,7 @@
 using UnityEngine;
 using Gamekit3D.Message;
 using System.Collections;
+using _3DGamekitLite.Scripts.CustomScripts.Simon;
 using UnityEngine.XR.WSA;
 
 namespace Gamekit3D
@@ -417,22 +418,18 @@ namespace Gamekit3D
 
             if (m_IsGrounded && !m_PreviouslyGrounded) // Landing
             {
-                Debug.Log("Landed!");
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f) // Jumping
             {
-                Debug.Log("Jumping");
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
             {
-                Debug.Log("getting hurt");
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
             {
-                Debug.Log("you is dying");
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
@@ -546,8 +543,6 @@ namespace Gamekit3D
             m_InAttack = true;
             ellenAudio.AttackEventPlay(throwing, meleeWeapon.attackAudio);
             //Debug.Log("Combo is: " + throwing);
-            
-            
         }
 
         // This is called by an animation event when Ellen finishes swinging her staff.

@@ -1,19 +1,21 @@
-using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-[CreateAssetMenu(menuName = "Scriptables/Survival/Inventory")]
-public class SurvivalInventory : ScriptableObject
+namespace _3DGamekitLite.Scripts.CustomScripts.Simon
 {
-     public int waterBottles;
-
-     private void OnEnable()
+     [CreateAssetMenu(menuName = "Scriptables/Survival/Inventory")]
+     public class SurvivalInventory : ScriptableObject
      {
-          waterBottles = 0;
-     }
+          public int waterBottles;
 
-     public void WaterBottlesGet()
-     {
-          waterBottles += Random.Range(0, 3);
+          private void OnEnable()
+          {
+               waterBottles = 0;
+          }
+
+          public void WaterBottlesGet()
+          {
+               waterBottles += Random.Range(0, 3);
+          }
      }
 }

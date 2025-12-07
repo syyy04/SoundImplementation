@@ -1,83 +1,86 @@
 using Gamekit3D;
 using UnityEngine;
 
-public class SurvivalMod : MonoBehaviour
+namespace _3DGamekitLite.Scripts.CustomScripts.Simon
 {
-    public float thirstLevel = 100;
-    public float thirstSpeed;
-    public float damageTimer = 10;
-
-    public bool thirsty;
-    public bool parched;
-
-    public Damageable playerDamageable;
-    
-    public SurvivalInventory survivalInventory;
-    
-    
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class SurvivalMod : MonoBehaviour
     {
-        
-    }
+        public float thirstLevel = 100;
+        public float thirstSpeed;
+        public float damageTimer = 10;
 
-    // Update is called once per frame
-    void Update()
-    {
+        public bool thirsty;
+        public bool parched;
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) && survivalInventory.waterBottles > 0)
+        public Damageable playerDamageable;
+    
+        public SurvivalInventory survivalInventory;
+    
+    
+    
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
         {
-            DrinkWater();
-        }
         
-        thirstLevel -= Mathf.Clamp(thirstSpeed * Time.deltaTime, 0, thirstLevel);
-
-        if (thirstLevel <= 50 && !thirsty)
-        {
-            Debug.Log("Getting thirsty...");
-            thirsty = true;
-        }
-        
-        if (thirstLevel <= 30 && !parched)
-        {
-            Debug.Log("I need to drink NOW!");
-            parched = true;
         }
 
-        if (thirstLevel <= 0)
+        // Update is called once per frame
+        void Update()
         {
-            damageTimer -= Time.deltaTime;
-            if (damageTimer <= 0)
+
+            if (Input.GetKeyDown(KeyCode.Alpha1) && survivalInventory.waterBottles > 0)
             {
-                Damageable.DamageMessage msg = new Damageable.DamageMessage()
-                {
-                    damager = this,
-                    amount = 1,
-                    damageSource = new Vector3(0, 0, 0),
-                    direction = new Vector3(0, 0, 0),
-                    stopCamera = false,
-                    throwing = false
-                };
-                
-                playerDamageable.ApplyDamage(msg);
-                Debug.Log("Damage by thirst!");
-                damageTimer = 10;
+                DrinkWater();
             }
+        
+            thirstLevel -= Mathf.Clamp(thirstSpeed * Time.deltaTime, 0, thirstLevel);
+
+            if (thirstLevel <= 50 && !thirsty)
+            {
+                Debug.Log("Getting thirsty...");
+                thirsty = true;
+            }
+        
+            if (thirstLevel <= 30 && !parched)
+            {
+                Debug.Log("I need to drink NOW!");
+                parched = true;
+            }
+
+            if (thirstLevel <= 0)
+            {
+                damageTimer -= Time.deltaTime;
+                if (damageTimer <= 0)
+                {
+                    Damageable.DamageMessage msg = new Damageable.DamageMessage()
+                    {
+                        damager = this,
+                        amount = 1,
+                        damageSource = new Vector3(0, 0, 0),
+                        direction = new Vector3(0, 0, 0),
+                        stopCamera = false,
+                        throwing = false
+                    };
+                
+                    playerDamageable.ApplyDamage(msg);
+                    Debug.Log("Damage by thirst!");
+                    damageTimer = 10;
+                }
             
-        }
+            }
         
       
 
-    }
+        }
 
-    void DrinkWater()
-    {
-        thirstLevel = 100;
-        playerDamageable.ResetDamage();
-        thirsty = false;
-        parched = false;
-        survivalInventory.waterBottles--;
-    }
+        void DrinkWater()
+        {
+            thirstLevel = 100;
+            playerDamageable.ResetDamage();
+            thirsty = false;
+            parched = false;
+            survivalInventory.waterBottles--;
+        }
     
+    }
 }
