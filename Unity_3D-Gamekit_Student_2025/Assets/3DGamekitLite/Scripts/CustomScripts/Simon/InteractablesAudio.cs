@@ -1,5 +1,6 @@
 using FMODUnity;
 using UnityEngine;
+using FMOD.Studio;
 
 namespace _3DGamekitLite.Scripts.CustomScripts.Simon
 {
@@ -8,7 +9,7 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
     {
         // A private EventReference variable that holds a reference to a specific FMOD event.
         // SerializeField makes the variable visible in the Inspector window.
-        [SerializeField] private EventReference pickupHealthEvent, boxDestroyEvent, doorSwitchEvent, pressurePlateEvent;
+        [SerializeField] private EventReference pickupHealthEvent, boxDestroyEvent, doorSwitchEvent, pressurePlateEvent, doorEvent;
     
 
         // A public void method for playing a 2D-oneshot event, specifically the PickupHealth event.
@@ -34,6 +35,28 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
         {
             // Plays the pressure plate event as a 2D-oneshot sound. Same concept as in PickupHealthPlay method.
             RuntimeManager.PlayOneShot(pressurePlateEvent);
+        }
+
+        public EventInstance DoorPlay(GameObject doorObj, EventInstance eventInstance, bool opening)
+        {
+            switch (opening)
+            {
+                case true:
+                    // Initializes an event instance with reference to the content of the EventReference doorEvent.
+                    eventInstance = RuntimeManager.CreateInstance(doorEvent);
+                    // Attaches the event instance to the door game object, using its transform and rigidbody components.
+                    RuntimeManager.AttachInstanceToGameObject(eventInstance, doorObj.transform, doorObj.GetComponent<Rigidbody>());
+                    eventInstance.start();
+                break;
+                case false:
+                    // run the keyOff method, which in practice means that we press the KeyOff button in FMOD
+                    eventInstance.keyOff();
+                    // frees up the event instance's resources to make room for the next doors
+                    eventInstance.release();
+                break;
+            }
+            
+            return eventInstance;
         }
     }
 }

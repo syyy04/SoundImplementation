@@ -94,6 +94,7 @@ MonoBehaviour:
   OnStopCommand: {fileID: 0}
   onStartAudio: {fileID: 0}
   onEndAudio: {fileID: 0}
+  interactablesAudio: {fileID: 11400000, guid: f0d61a0f6dc044bfaa6b783996e1c455, type: 2}
   previewPosition: 0
   rigidbody: {fileID: 54845302652219086}
   start: {x: 0, y: 0, z: 0}

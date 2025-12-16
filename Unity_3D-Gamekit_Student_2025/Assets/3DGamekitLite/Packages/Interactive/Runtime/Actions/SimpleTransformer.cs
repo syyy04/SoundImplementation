@@ -1,3 +1,4 @@
+using _3DGamekitLite.Scripts.CustomScripts.Simon;
 using UnityEngine;
 
 namespace Gamekit3D.GameCommands
@@ -20,6 +21,8 @@ namespace Gamekit3D.GameCommands
         public SendGameCommand OnStartCommand, OnStopCommand;
 
         public GameObject onStartAudio, onEndAudio;
+        FMOD.Studio.EventInstance eventInstance;
+        public InteractablesAudio interactablesAudio;
 
         [Range(0, 1)]
         public float previewPosition;
@@ -47,6 +50,9 @@ namespace Gamekit3D.GameCommands
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
             //if (onStartAudio != null) onStartAudio.Play();
+            Debug.Log("Door Opening");
+            // The local event instance stores the results from the DoorPlay method, which makes it possible to track each door's event instance.
+            interactablesAudio.DoorPlay(gameObject, eventInstance, true);
         }
 
         public void FixedUpdate()
@@ -93,6 +99,8 @@ namespace Gamekit3D.GameCommands
                 enabled = false;
                 if (OnStopCommand != null) OnStopCommand.Send();
                 direction *= -1;
+                Debug.Log("Door Closed");
+                interactablesAudio.DoorPlay(gameObject, eventInstance, false);
             }
         }
     }

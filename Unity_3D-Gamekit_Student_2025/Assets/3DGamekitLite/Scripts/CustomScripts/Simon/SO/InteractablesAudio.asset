@@ -40,3 +40,10 @@ MonoBehaviour:
       Data3: 131761542
       Data4: -1905810316
     Path: event:/Interactables/PressurePad
+  doorEvent:
+    Guid:
+      Data1: 1820238647
+      Data2: 1286211571
+      Data3: 1083526274
+      Data4: 989412109
+    Path: event:/Interactables/DoorOpen_Loopable
