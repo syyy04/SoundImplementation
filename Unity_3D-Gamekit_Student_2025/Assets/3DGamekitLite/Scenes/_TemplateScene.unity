@@ -9410,9 +9410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1976681d037f741d0be68f8e38fd73e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ambInstructions:
-    ambType: 0
-    action: 0
+  ambInstructions: []
 --- !u!4 &537854328 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4832437523981014, guid: b8fcd32b5137af94ebd1b7f408645f1c,
@@ -14801,8 +14799,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ambInstructions:
-    ambType: 1
+  - ambType: 0
     action: 0
+    parameterName: 
+    parameterValue: 0
+  - ambType: 1
+    action: 0
+    parameterName: 
+    parameterValue: 0
+  - ambType: 2
+    action: 1
+    parameterName: 
+    parameterValue: 0
 --- !u!65 &1019764773
 BoxCollider:
   m_ObjectHideFlags: 0
