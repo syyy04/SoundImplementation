@@ -98,5 +98,13 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
                 return;
             }
         }
+        public void SetParameter(AmbType ambType, string parameterName,float parameterValue)
+        {
+            // Runs the GetEmitter with the information/argument stored in the parameter ambType, so that we can easily set the parameter using the pointerEmitter
+            GetEmitter(ambType);
+            
+            // Sets the parameter with the name stored in parameterName to the value stored in parameterValue
+            pointerEmitter.SetParameter(parameterName, parameterValue);
+        } 
     }
 }
