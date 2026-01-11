@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Serialization;
 
 namespace Gamekit3D
 {
@@ -29,6 +30,8 @@ namespace Gamekit3D
         public static readonly int hashIdleState = Animator.StringToHash("GrenadierIdle");
 
         public EnemyController controller { get { return m_EnemyController; } }
+        
+        public GunnerAudio gunnerAudio;
 
         public TargetScanner playerScanner;
 
@@ -56,6 +59,7 @@ namespace Gamekit3D
         public GameObject footstepSource;
         public GameObject throwSource;
         public GameObject punchSource;
+      
 
         protected PlayerController m_Target;
         //used to store the position of the target when the Grenadier decide to shoot, so if the player
@@ -109,6 +113,7 @@ namespace Gamekit3D
         public void StartPursuit()
         {
             m_EnemyController.animator.SetBool(hashInPursuitParam, true);
+            gunnerAudio.WalkEventPlay(footstepSource);
         }
 
         public void StopPursuit()
@@ -119,6 +124,7 @@ namespace Gamekit3D
         public void StartAttack()
         {
             fistWeapon.BeginAttack(true);
+            gunnerAudio.PunchAttackEventPlay(punchSource);
         }
 
         public void EndAttack()
@@ -130,11 +136,13 @@ namespace Gamekit3D
         {
             m_EnemyController.animator.SetTrigger(hashHitParam);
             m_CoreMaterial.SetColor("_Color2", Color.red);
+            gunnerAudio.TakeDamageEventPlay(damageSource);
         }
 
         public void Die()
         {
             m_EnemyController.animator.SetTrigger(hashDeathParam);
+            gunnerAudio.DieEventPlay(deathSource);
         }
 
         public void ActivateShield()
@@ -142,6 +150,7 @@ namespace Gamekit3D
             shield.SetActive(true);
             m_ShieldActivationTime = 3.0f;
             m_Damageable.SetColliderState(false);
+            gunnerAudio.AttackShieldEventPlay(throwSource);
         }
 
         public void DeactivateShield()
@@ -169,7 +178,7 @@ namespace Gamekit3D
         {
             Vector3 toTarget = m_GrenadeTarget - transform.position;
 
-            //the grenade is launched a couple of meters in "front" of the player, because it bounce and roll, to make it a bit ahrder for the player
+            //the grenade is launched a couple of meters in "front" of the player, because it bounce and roll, to make it a bit haarder for the player
             //to avoid it
             Vector3 target = transform.position + (toTarget - toTarget * 0.3f);
 

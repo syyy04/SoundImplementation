@@ -25,6 +25,7 @@ namespace Gamekit3D
 
         public GameObject explosionPlayer;
         public GameObject bouncePlayer;
+        public GunnerAudio gunnerAudio;
 
         protected float m_SinceFired;
 
@@ -127,6 +128,8 @@ namespace Gamekit3D
                 }
             }
 
+            gunnerAudio.GrenadeAttackEventPlay(explosionPlayer);
+            
             m_VFXInstance.gameObject.transform.position = playPosition;
             m_VFXInstance.gameObject.transform.up = playNormal;
             m_VFXInstance.time = 0.0f;

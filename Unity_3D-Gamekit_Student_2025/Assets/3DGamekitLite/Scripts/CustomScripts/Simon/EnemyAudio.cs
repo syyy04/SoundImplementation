@@ -10,6 +10,12 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
         [SerializeField] private EventReference biteAttackEvent, spitAttackEvent, dieEvent, footstepEvent;
 
         private EventInstance biteAttackEventInstance, spitAttackEventInstance, dieEventInstance, footstepEventInstance;
+
+        public enum EnemyType
+        {
+            Chomper,
+            Spitter
+        }
     
         public void BiteAttackEventPlay(GameObject obj)
         {
