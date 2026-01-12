@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Serialization;
+using _3DGamekitLite.Scripts.CustomScripts.Simon;
+
 
 namespace Gamekit3D
 {
@@ -113,7 +115,6 @@ namespace Gamekit3D
         public void StartPursuit()
         {
             m_EnemyController.animator.SetBool(hashInPursuitParam, true);
-            gunnerAudio.WalkEventPlay(footstepSource);
         }
 
         public void StopPursuit()
@@ -150,7 +151,7 @@ namespace Gamekit3D
             shield.SetActive(true);
             m_ShieldActivationTime = 3.0f;
             m_Damageable.SetColliderState(false);
-            gunnerAudio.AttackShieldEventPlay(throwSource);
+            gunnerAudio.AttackShieldEventPlay(shield);
         }
 
         public void DeactivateShield()

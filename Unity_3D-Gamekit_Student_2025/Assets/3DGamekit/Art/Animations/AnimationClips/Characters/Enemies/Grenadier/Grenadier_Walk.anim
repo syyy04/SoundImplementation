@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Grenadier_Walk
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -37708,7 +37708,8 @@ AnimationClip:
       m_RotationOrder: 4
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
   m_FloatCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -37736,7 +37737,9 @@ AnimationClip:
     path: GrenadierMesh
     classID: 25
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -38367,7 +38370,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -38998,7 +39003,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -39629,7 +39636,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -40260,7 +40269,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -40891,7 +40902,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -41522,7 +41535,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -42153,6 +42168,7 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
+    flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -42168,6 +42184,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 762986529
       attribute: 1
@@ -42175,6 +42193,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2362302941
       attribute: 1
@@ -42182,6 +42202,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2290270994
       attribute: 1
@@ -42189,6 +42211,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 896201959
       attribute: 1
@@ -42196,6 +42220,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 260291654
       attribute: 1
@@ -42203,6 +42229,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2816190751
       attribute: 1
@@ -42210,6 +42238,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1018761825
       attribute: 1
@@ -42217,6 +42247,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2694058992
       attribute: 1
@@ -42224,6 +42256,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2068210019
       attribute: 1
@@ -42231,6 +42265,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 684813913
       attribute: 1
@@ -42238,6 +42274,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 762986529
       attribute: 2
@@ -42245,6 +42283,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2362302941
       attribute: 2
@@ -42252,6 +42292,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2290270994
       attribute: 2
@@ -42259,6 +42301,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 260291654
       attribute: 2
@@ -42266,6 +42310,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2816190751
       attribute: 2
@@ -42273,6 +42319,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1018761825
       attribute: 2
@@ -42280,6 +42328,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1870090208
       attribute: 2
@@ -42287,6 +42337,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3970535387
       attribute: 2
@@ -42294,6 +42346,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 341505357
       attribute: 2
@@ -42301,6 +42355,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2694058992
       attribute: 2
@@ -42308,6 +42364,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 684813913
       attribute: 2
@@ -42315,6 +42373,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4120154460
       attribute: 2
@@ -42322,6 +42382,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2819511932
       attribute: 2
@@ -42329,6 +42391,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 70096269
       attribute: 2
@@ -42336,6 +42400,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2379133687
       attribute: 2
@@ -42343,6 +42409,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2277463567
       attribute: 2
@@ -42350,6 +42418,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2891284069
       attribute: 2
@@ -42357,6 +42427,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 636377377
       attribute: 2
@@ -42364,6 +42436,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3480752632
       attribute: 2
@@ -42371,6 +42445,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4209144634
       attribute: 2
@@ -42378,6 +42454,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 9
@@ -42385,6 +42463,8 @@ AnimationClip:
       typeID: 95
       customType: 8
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 946280794
       attribute: 2
@@ -42392,6 +42472,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 896201959
       attribute: 2
@@ -42399,6 +42481,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1628945524
       attribute: 2
@@ -42406,6 +42490,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1174935669
       attribute: 2
@@ -42413,6 +42499,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 889103345
       attribute: 2
@@ -42420,6 +42508,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2068210019
       attribute: 2
@@ -42427,6 +42517,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2132013237
       attribute: 2
@@ -42434,6 +42526,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4176910770
       attribute: 2
@@ -42441,6 +42535,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1042068005
       attribute: 2
@@ -42448,6 +42544,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 612041256
       attribute: 2
@@ -42455,6 +42553,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3183710404
       attribute: 2
@@ -42462,6 +42562,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2713555930
       attribute: 3
@@ -42469,6 +42571,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 762986529
       attribute: 3
@@ -42476,6 +42580,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2362302941
       attribute: 3
@@ -42483,6 +42589,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 896201959
       attribute: 3
@@ -42490,6 +42598,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 260291654
       attribute: 3
@@ -42497,6 +42607,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2816190751
       attribute: 3
@@ -42504,6 +42616,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1018761825
       attribute: 3
@@ -42511,6 +42625,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1870090208
       attribute: 3
@@ -42518,6 +42634,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1174935669
       attribute: 3
@@ -42525,6 +42643,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2694058992
       attribute: 3
@@ -42532,6 +42652,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2068210019
       attribute: 3
@@ -42539,6 +42661,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 684813913
       attribute: 3
@@ -42546,6 +42670,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4120154460
       attribute: 3
@@ -42553,6 +42679,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4176910770
       attribute: 3
@@ -42560,6 +42688,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2379133687
       attribute: 3
@@ -42567,6 +42697,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2277463567
       attribute: 3
@@ -42574,6 +42706,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 636377377
       attribute: 3
@@ -42581,6 +42715,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3480752632
       attribute: 3
@@ -42588,6 +42724,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1408472321
       attribute: 3305885265
@@ -42595,6 +42733,8 @@ AnimationClip:
       typeID: 25
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 7
@@ -42602,6 +42742,8 @@ AnimationClip:
       typeID: 95
       customType: 8
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 8
@@ -42609,6 +42751,8 @@ AnimationClip:
       typeID: 95
       customType: 8
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 10
@@ -42616,6 +42760,8 @@ AnimationClip:
       typeID: 95
       customType: 8
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 11
@@ -42623,6 +42769,8 @@ AnimationClip:
       typeID: 95
       customType: 8
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 12
@@ -42630,6 +42778,8 @@ AnimationClip:
       typeID: 95
       customType: 8
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 13
@@ -42637,6 +42787,8 @@ AnimationClip:
       typeID: 95
       customType: 8
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -42659,7 +42811,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -42687,7 +42840,9 @@ AnimationClip:
     path: GrenadierMesh
     classID: 25
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -43318,7 +43473,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -43949,7 +44106,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -44580,7 +44739,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -45211,7 +45372,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -45842,7 +46005,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -46473,7 +46638,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -47104,7 +47271,9 @@ AnimationClip:
     path: 
     classID: 95
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -47735,7 +47904,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -48366,7 +48537,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -48997,7 +49170,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -49628,7 +49803,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -50259,7 +50436,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -50890,7 +51069,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -51521,7 +51702,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -52152,7 +52335,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -52783,7 +52968,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -53414,7 +53601,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -54045,7 +54234,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -54676,7 +54867,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -55307,7 +55500,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -55938,7 +56133,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -56569,7 +56766,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -57200,7 +57399,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -57831,7 +58032,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -58462,7 +58665,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -59093,7 +59298,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -59724,7 +59931,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -60355,7 +60564,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -60986,7 +61197,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -61617,7 +61830,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -62248,7 +62463,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -62879,7 +63096,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -63510,7 +63729,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -64141,7 +64362,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -64772,7 +64995,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -65403,7 +65628,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -66034,7 +66261,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -66665,7 +66894,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -67296,7 +67527,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -67927,7 +68160,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -68558,7 +68793,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -69189,7 +69426,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -69820,7 +70059,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -70451,7 +70692,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -71082,7 +71325,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -71713,7 +71958,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -72344,7 +72591,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -72975,7 +73224,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -73606,7 +73857,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -74237,7 +74490,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -74868,7 +75123,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -75499,7 +75756,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -76130,7 +76389,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -76761,7 +77022,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -77392,7 +77655,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -78023,7 +78288,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -78654,7 +78921,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -79285,7 +79554,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -79916,7 +80187,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -80547,7 +80820,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb/Grenadier_RightThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -81178,7 +81453,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb/Grenadier_RightThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -81809,7 +82086,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb/Grenadier_RightThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -82440,7 +82719,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb/Grenadier_RightThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -83071,7 +83352,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -83702,7 +83985,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -84333,7 +84618,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -84964,7 +85251,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -85595,7 +85884,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -86226,7 +86517,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -86857,7 +87150,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -87488,7 +87783,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -88119,7 +88416,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -88750,7 +89049,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -89381,7 +89682,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -90012,7 +90315,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -90643,7 +90948,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -91274,7 +91581,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -91905,7 +92214,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -92536,7 +92847,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -93167,7 +93480,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -93798,7 +94113,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -94429,7 +94746,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -95060,7 +95379,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -95691,7 +96012,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -96322,7 +96645,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -96953,7 +97278,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -97584,7 +97911,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -98215,7 +98544,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -98846,7 +99177,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -99477,7 +99810,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -100108,7 +100443,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -100739,7 +101076,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -101370,7 +101709,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -102001,7 +102342,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -102632,7 +102975,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -103263,7 +103608,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb/Grenadier_LeftThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -103894,7 +104241,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb/Grenadier_LeftThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -104525,7 +104874,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb/Grenadier_LeftThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -105156,7 +105507,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb/Grenadier_LeftThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -105787,7 +106140,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -106418,7 +106773,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -107049,7 +107406,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -107680,7 +108039,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -108311,7 +108672,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -108942,7 +109305,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -109573,7 +109938,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -110204,7 +110571,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -110835,7 +111204,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -111466,7 +111837,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -112097,7 +112470,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -112728,7 +113103,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -113359,7 +113736,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot/Grenadier_LeftFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -113990,7 +114369,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot/Grenadier_LeftFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -114621,7 +115002,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot/Grenadier_LeftFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -115252,7 +115635,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot/Grenadier_LeftFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -115883,7 +116268,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -116514,7 +116901,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -117145,7 +117534,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -117776,7 +118167,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -118407,7 +118800,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -119038,7 +119433,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -119669,7 +120066,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -120300,7 +120699,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -120931,7 +121332,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -121562,7 +121965,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -122193,7 +122598,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -122824,7 +123231,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -123455,7 +123864,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot/Grenadier_RightFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -124086,7 +124497,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot/Grenadier_RightFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -124717,7 +125130,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot/Grenadier_RightFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -125348,7 +125763,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot/Grenadier_RightFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -125979,7 +126396,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -126610,7 +127029,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -127241,7 +127662,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -127872,7 +128295,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -128503,7 +128928,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -129134,7 +129561,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -129765,7 +130194,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -130396,7 +130827,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -131027,7 +131460,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -131658,7 +132093,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -132289,7 +132726,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -132920,7 +133359,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -133551,7 +133992,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -134182,7 +134625,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -134813,7 +135258,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -135444,7 +135891,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -136075,7 +136524,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -136706,7 +137157,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -137337,7 +137790,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -137968,7 +138423,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -138599,7 +139056,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -139230,7 +139689,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -139861,7 +140322,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -140492,7 +140955,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -141123,7 +141588,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -141754,7 +142221,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -142385,7 +142854,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -143016,7 +143487,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -143647,7 +144120,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -144278,7 +144753,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -144909,7 +145386,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -145540,7 +146019,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -146171,7 +146652,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -146802,7 +147285,9 @@ AnimationClip:
     path: GrenadierSkeleton
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -147433,7 +147918,9 @@ AnimationClip:
     path: GrenadierSkeleton
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -148064,7 +148551,9 @@ AnimationClip:
     path: GrenadierSkeleton
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -148695,7 +149184,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -149326,7 +149817,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -149957,7 +150450,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -150588,7 +151083,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -151219,7 +151716,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -151850,7 +152349,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -152481,7 +152982,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -153112,7 +153615,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -153743,7 +154248,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -154374,7 +154881,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -155005,7 +155514,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -155636,7 +156147,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -156267,7 +156780,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -156898,7 +157413,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -157529,7 +158046,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -158160,7 +158679,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -158791,7 +159312,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -159422,7 +159945,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -160053,7 +160578,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -160684,7 +161211,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -161315,7 +161844,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -161946,7 +162477,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -162577,7 +163110,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -163208,7 +163743,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -163839,7 +164376,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -164470,7 +165009,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -165101,7 +165642,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -165732,7 +166275,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -166363,7 +166908,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -166994,7 +167541,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -167625,7 +168174,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -168256,7 +168807,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -168887,7 +169440,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -169518,7 +170073,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -170149,7 +170706,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -170780,7 +171339,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -171411,7 +171972,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -172042,7 +172605,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -172673,7 +173238,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -173304,7 +173871,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -173935,7 +174504,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -174566,7 +175137,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -175197,7 +175770,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -175828,7 +176403,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -176459,7 +177036,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -177090,7 +177669,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -177721,7 +178302,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -178352,7 +178935,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -178983,7 +179568,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -179614,7 +180201,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -180245,8 +180834,10 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -180877,7 +181468,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -181508,7 +182101,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -182139,7 +182734,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -182770,7 +183367,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -183401,7 +184000,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -184032,7 +184633,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -184663,7 +185266,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -185294,7 +185899,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -185925,7 +186532,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -186556,7 +187165,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -187187,7 +187798,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -187818,7 +188431,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -188449,7 +189064,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -189080,7 +189697,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -189711,7 +190330,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -190342,7 +190963,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -190973,7 +191596,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -191604,7 +192229,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_EyeArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -192235,7 +192862,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -192866,7 +193495,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -193497,7 +194128,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_HelmetArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -194128,7 +194761,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -194759,7 +195394,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -195390,7 +196027,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -196021,7 +196660,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -196652,7 +197293,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -197283,7 +197926,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -197914,7 +198559,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -198545,7 +199192,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -199176,7 +199825,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -199807,7 +200458,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -200438,7 +201091,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -201069,7 +201724,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -201700,7 +202357,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -202331,7 +202990,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -202962,7 +203623,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -203593,7 +204256,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -204224,7 +204889,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -204855,7 +205522,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -205486,7 +206155,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb/Grenadier_RightThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -206117,7 +206788,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb/Grenadier_RightThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -206748,7 +207421,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightShoulder/Grenadier_RightUpperArm/Grenadier_RightArm/Grenadier_RightHand/Grenadier_RightThumb/Grenadier_RightThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -207379,7 +208054,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -208010,7 +208687,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -208641,7 +209320,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightHornArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -209272,7 +209953,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -209903,7 +210586,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -210534,7 +211219,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_RightChestArmor
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -211165,7 +211852,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -211796,7 +212485,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -212427,7 +213118,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -213058,7 +213751,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -213689,7 +214384,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -214320,7 +215017,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -214951,7 +215650,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -215582,7 +216283,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -216213,7 +216916,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -216844,7 +217549,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -217475,7 +218182,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -218106,7 +218815,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -218737,7 +219448,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -219368,7 +220081,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -219999,7 +220714,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftHandEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -220630,7 +221347,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -221261,7 +221980,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -221892,7 +222613,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -222523,7 +223246,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb/Grenadier_LeftThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -223154,7 +223879,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb/Grenadier_LeftThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -223785,7 +224512,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_Sphere/Grenadier_LeftShoulder/Grenadier_LeftUpperArm/Grenadier_LeftArm/Grenadier_LeftHand/Grenadier_LeftThumb/Grenadier_LeftThumbEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -224416,7 +225145,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -225047,7 +225778,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -225678,7 +226411,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -226309,7 +227044,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -226940,7 +227677,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -227571,7 +228310,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -228202,7 +228943,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -228833,7 +229576,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -229464,7 +230209,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -230095,7 +230842,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot/Grenadier_LeftFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -230726,7 +231475,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot/Grenadier_LeftFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -231357,7 +232108,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_LeftUpperLeg/Grenadier_LeftLowerLeg/Grenadier_LeftFoot/Grenadier_LeftFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -231988,7 +232741,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -232619,7 +233374,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -233250,7 +234007,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -233881,7 +234640,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -234512,7 +235273,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -235143,7 +235906,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -235774,7 +236539,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -236405,7 +237172,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -237036,7 +237805,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -237667,7 +238438,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot/Grenadier_RightFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -238298,7 +239071,9 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot/Grenadier_RightFootEnd
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -238929,6 +239704,7 @@ AnimationClip:
     path: GrenadierSkeleton/Grenadier_Root/Grenadier_Hips/Grenadier_RightUpperLeg/Grenadier_RightLowerLeg/Grenadier_RightFoot/Grenadier_RightFootEnd
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []

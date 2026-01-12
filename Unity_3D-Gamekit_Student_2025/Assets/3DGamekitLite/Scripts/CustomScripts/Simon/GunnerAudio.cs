@@ -6,8 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GunnerAudio", menuName = "Scriptables/GunnerAudio")]
 public class GunnerAudio : ScriptableObject
 {
-    [SerializeField]
-    private EventReference walkEvent, punchAttackEvent, grenadeAttackEvent, attackShieldEvent, takeDamageEvent, dieEvent;
+    [SerializeField] private EventReference walkEvent, punchAttackEvent, grenadeAttackEvent, attackShieldEvent, takeDamageEvent, dieEvent;
     
     private EventInstance walkEventInstance, punchAttackEventInstance, grenadeAttackEventInstance, attackShieldEventInstance, takeDamageEventInstance, dieEventInstance;
 
@@ -20,7 +19,7 @@ public class GunnerAudio : ScriptableObject
         else
         {
             walkEventInstance = RuntimeManager.CreateInstance(walkEvent);
-            RuntimeManager.AttachInstanceToGameObject(walkEventInstance, obj);
+            RuntimeManager.AttachInstanceToGameObject(walkEventInstance, obj, obj.GetComponent<Rigidbody>());
             walkEventInstance.start();
             walkEventInstance.release();
         }
@@ -35,7 +34,7 @@ public class GunnerAudio : ScriptableObject
         else
         {
             punchAttackEventInstance = RuntimeManager.CreateInstance(punchAttackEvent);
-            RuntimeManager.AttachInstanceToGameObject(punchAttackEventInstance, obj);
+            RuntimeManager.AttachInstanceToGameObject(punchAttackEventInstance, obj, obj.GetComponent<Rigidbody>());
             punchAttackEventInstance.start();
             punchAttackEventInstance.release();
         }
@@ -50,7 +49,7 @@ public class GunnerAudio : ScriptableObject
         else
         {
             grenadeAttackEventInstance = RuntimeManager.CreateInstance(grenadeAttackEvent);
-            RuntimeManager.AttachInstanceToGameObject(grenadeAttackEventInstance, obj);
+            RuntimeManager.AttachInstanceToGameObject(grenadeAttackEventInstance, obj, obj.GetComponent<Rigidbody>());
             grenadeAttackEventInstance.start();
             grenadeAttackEventInstance.release();
         }
@@ -65,7 +64,7 @@ public class GunnerAudio : ScriptableObject
         else
         {
             attackShieldEventInstance = RuntimeManager.CreateInstance(attackShieldEvent);
-            RuntimeManager.AttachInstanceToGameObject(attackShieldEventInstance, obj);
+            RuntimeManager.AttachInstanceToGameObject(attackShieldEventInstance, obj, obj.GetComponent<Rigidbody>());
             attackShieldEventInstance.start();
             attackShieldEventInstance.release();
         }
@@ -80,7 +79,7 @@ public class GunnerAudio : ScriptableObject
         else
         {
             takeDamageEventInstance = RuntimeManager.CreateInstance(takeDamageEvent);
-            RuntimeManager.AttachInstanceToGameObject(takeDamageEventInstance, obj);
+            RuntimeManager.AttachInstanceToGameObject(takeDamageEventInstance, obj, obj.GetComponent<Rigidbody>());
             takeDamageEventInstance.start();
             takeDamageEventInstance.release();
         }
@@ -95,7 +94,7 @@ public class GunnerAudio : ScriptableObject
         else
         {
             dieEventInstance = RuntimeManager.CreateInstance(dieEvent);
-            RuntimeManager.AttachInstanceToGameObject(dieEventInstance, obj);
+            RuntimeManager.AttachInstanceToGameObject(dieEventInstance, obj, obj.GetComponent<Rigidbody>());
             dieEventInstance.start();
             dieEventInstance.release();
         }

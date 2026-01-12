@@ -1,6 +1,9 @@
 using UnityEngine;
 
-public class GunnerAudioHolder : MonoBehaviour
+namespace _3DGamekitLite.Scripts.CustomScripts.Simon
 {
-    [SerializeField] public GunnerAudio gunnerAudio;
+    public class GunnerAudioHolder : MonoBehaviour
+    {
+        [SerializeField] public GunnerAudio gunnerAudio;
+    }
 }

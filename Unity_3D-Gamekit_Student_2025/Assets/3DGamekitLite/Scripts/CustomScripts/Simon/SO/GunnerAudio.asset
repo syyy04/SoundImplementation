@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1293979630
+      Data2: 1245524773
+      Data3: 869751469
+      Data4: 709277076
+    Path: event:/Grenadier/Grenadier_Walk
   punchAttackEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 947448437
+      Data2: 1253432536
+      Data3: -1075265905
+      Data4: -944555358
+    Path: event:/Grenadier/Grenadier_Punch
   grenadeAttackEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -637683371
+      Data2: 1260412073
+      Data3: -1371820662
+      Data4: -1833427484
+    Path: event:/Grenadier/Grenadier_Grenade
   attackShieldEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -577886621
+      Data2: 1236755147
+      Data3: -1069124941
+      Data4: 1827798040
+    Path: event:/Grenadier/Grenadier_LightningShield
   takeDamageEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1484111239
+      Data2: 1134419037
+      Data3: -1308760687
+      Data4: 1202162275
+    Path: event:/Grenadier/Grenadier_Damage
   dieEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 788363837
+      Data2: 1221726613
+      Data3: -2118720338
+      Data4: -1217393390
+    Path: event:/Grenadier/Grenadier_Death

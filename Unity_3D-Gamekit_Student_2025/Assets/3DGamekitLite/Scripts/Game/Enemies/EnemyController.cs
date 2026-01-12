@@ -27,6 +27,8 @@ namespace Gamekit3D
         protected bool m_ExternalForceAddGravity = true;
         protected Vector3 m_ExternalForce;
         protected bool m_Grounded;
+        
+        protected GunnerAudio GunnerAudio;
 
         protected Rigidbody m_Rigidbody;
 
@@ -101,6 +103,7 @@ namespace Gamekit3D
                     m_Animator.deltaPosition.sqrMagnitude))
                 {
                     m_Rigidbody.MovePosition(m_Rigidbody.position + m_Animator.deltaPosition);
+                    GunnerAudio.WalkEventPlay(m_Rigidbody.gameObject);
                 }
             }
 
