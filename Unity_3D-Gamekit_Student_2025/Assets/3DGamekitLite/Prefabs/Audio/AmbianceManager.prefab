@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 965f185ecdb1041cf8a0fc4dfc530218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weatherEmitter: {fileID: 7376873673512580987}
+  poolEmitter: {fileID: 0}
   outsideEmitter: {fileID: 5440979442454751274}
   insideEmitter: {fileID: 7489467518149378781}
   pointerEmitter: {fileID: 0}
@@ -102,7 +102,7 @@ MonoBehaviour:
       Data2: 1131771730
       Data3: -1560008788
       Data4: 1422475634
-    Path: event:/AmbInside
+    Path: event:/Ambiance/AmbInside
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
       Data2: 1329264921
       Data3: -1712982615
       Data4: -2039745276
-    Path: event:/AmbWeather
+    Path: event:/Ambiance/AmbWeather
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
       Data2: 1329264921
       Data3: -1712982615
       Data4: -2039745276
-    Path: event:/AmbWeather
+    Path: event:/Ambiance/AmbWeather
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

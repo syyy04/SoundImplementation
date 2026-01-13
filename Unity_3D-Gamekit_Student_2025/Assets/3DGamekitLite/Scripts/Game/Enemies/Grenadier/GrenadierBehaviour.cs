@@ -115,6 +115,16 @@ namespace Gamekit3D
         public void StartPursuit()
         {
             m_EnemyController.animator.SetBool(hashInPursuitParam, true);
+            Debug.DrawRay(footstepSource.transform.position, Vector3.down * 1f, Color.red, 2f);
+            RaycastHit hit;
+            if (Physics.Raycast(footstepSource.transform.position, Vector3.down, out hit, 1f))
+            {
+                gunnerAudio.WalkEventPlay(footstepSource);
+            }
+            else
+            {
+                Debug.Log("No hit...");
+            }
         }
 
         public void StopPursuit()
@@ -172,7 +182,7 @@ namespace Gamekit3D
 
         public void PlayStep()
         {
-
+            
         }
 
         public void Shoot()

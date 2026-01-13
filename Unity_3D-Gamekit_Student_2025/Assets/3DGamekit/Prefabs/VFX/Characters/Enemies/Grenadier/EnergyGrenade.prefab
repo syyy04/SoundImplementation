@@ -4993,7 +4993,7 @@ MonoBehaviour:
   vfxOnGround: 0
   explosionPlayer: {fileID: 1845074171314222}
   bouncePlayer: {fileID: 1319057403464378}
-  gunnerAudio: {fileID: 0}
+  gunnerAudio: {fileID: 11400000, guid: d42152adb335f4c92809e2cfab5afcf8, type: 2}
 --- !u!54 &54181106866514300
 Rigidbody:
   m_ObjectHideFlags: 0

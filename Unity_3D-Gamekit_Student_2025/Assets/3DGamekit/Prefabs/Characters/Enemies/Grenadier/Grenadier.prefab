@@ -4876,6 +4876,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4964,7 +4967,7 @@ Transform:
   m_Children:
   - {fileID: 4772042012220124}
   m_Father: {fileID: 4928366675969138}
-  m_LocalEulerAnglesHint: {x: 0.0016394173, y: -108.137985, z: -0.0006270214}
+  m_LocalEulerAnglesHint: {x: 0.001530119, y: -125.82886, z: -0.0012586474}
 --- !u!1 &1115467737674784
 GameObject:
   m_ObjectHideFlags: 0
@@ -9853,6 +9856,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -14754,11 +14760,13 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 1402721190994cd46b64bf7cba78f5d8, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19655,11 +19663,13 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 1402721190994cd46b64bf7cba78f5d8, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24538,11 +24548,13 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bca68ec3f26fbc645adc6a43fae79f2f, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24626,7 +24638,7 @@ Transform:
   m_Children:
   - {fileID: 4466581946248654}
   m_Father: {fileID: 4505784598048578}
-  m_LocalEulerAnglesHint: {x: -7.8606243, y: -124.80969, z: 16.637415}
+  m_LocalEulerAnglesHint: {x: 0.6738606, y: 130.9151, z: 4.057663}
 --- !u!1 &1193668997317726
 GameObject:
   m_ObjectHideFlags: 0
@@ -29453,11 +29465,13 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: c3d355e02c5fd9a4c972161c679fc530, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29541,7 +29555,7 @@ Transform:
   m_Children:
   - {fileID: 4052746493990606}
   m_Father: {fileID: 4720789838465882}
-  m_LocalEulerAnglesHint: {x: 0.0000006891823, y: 0.000004788141, z: 53.035706}
+  m_LocalEulerAnglesHint: {x: -0.0000056487947, y: 0.0000063419, z: 79.93668}
 --- !u!1 &1194826068017750
 GameObject:
   m_ObjectHideFlags: 0
@@ -29666,7 +29680,7 @@ Transform:
   m_Children:
   - {fileID: 4180275079425924}
   m_Father: {fileID: 4271466715528528}
-  m_LocalEulerAnglesHint: {x: 14.421503, y: -167.02846, z: 90.262764}
+  m_LocalEulerAnglesHint: {x: -8.725981, y: -157.92285, z: 106.99185}
 --- !u!1 &1225888305799210
 GameObject:
   m_ObjectHideFlags: 0
@@ -34506,6 +34520,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -39358,6 +39375,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -39446,7 +39466,7 @@ Transform:
   m_Children:
   - {fileID: 4070472966747238}
   m_Father: {fileID: 4223199820665728}
-  m_LocalEulerAnglesHint: {x: 6.858071e-15, y: -0.0000000018631459, z: 53.035706}
+  m_LocalEulerAnglesHint: {x: -9.804915e-15, y: 0.00000014525146, z: 53.024788}
 --- !u!1 &1244948181425810
 GameObject:
   m_ObjectHideFlags: 0
@@ -39479,7 +39499,7 @@ Transform:
   - {fileID: 4670940307740648}
   - {fileID: 4349319897439402}
   m_Father: {fileID: 4008635443390156}
-  m_LocalEulerAnglesHint: {x: 41.96065, y: -36.015297, z: 4.7480116}
+  m_LocalEulerAnglesHint: {x: -14.205042, y: -42.587673, z: 8.140546}
 --- !u!1 &1292490412541140
 GameObject:
   m_ObjectHideFlags: 0
@@ -39542,7 +39562,7 @@ Transform:
   m_Children:
   - {fileID: 4026964621557660}
   m_Father: {fileID: 4271466715528528}
-  m_LocalEulerAnglesHint: {x: -72.77149, y: -28.106205, z: -66.88528}
+  m_LocalEulerAnglesHint: {x: -70.42984, y: -20.622246, z: -64.768585}
 --- !u!1 &1348567545546796
 GameObject:
   m_ObjectHideFlags: 0
@@ -39574,7 +39594,7 @@ Transform:
   m_Children:
   - {fileID: 4720789838465882}
   m_Father: {fileID: 4255536198532084}
-  m_LocalEulerAnglesHint: {x: 0.00000015735012, y: 56.905468, z: -0.000000087169546}
+  m_LocalEulerAnglesHint: {x: 0.00000015721461, y: 61.44318, z: -0.00000008454366}
 --- !u!1 &1380953545598398
 GameObject:
   m_ObjectHideFlags: 0
@@ -39608,7 +39628,7 @@ Transform:
   - {fileID: 4563078335390206}
   - {fileID: 4511195835219754}
   m_Father: {fileID: 4049577806511420}
-  m_LocalEulerAnglesHint: {x: 13.879753, y: 16.918953, z: 12.527308}
+  m_LocalEulerAnglesHint: {x: -12.933705, y: 10.373728, z: 4.226199}
 --- !u!114 &114066466787847196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44543,6 +44563,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -44630,7 +44653,7 @@ Transform:
   m_Children:
   - {fileID: 4049577806511420}
   m_Father: {fileID: 4550063372189316}
-  m_LocalEulerAnglesHint: {x: -41.982773, y: 7.777362, z: 40.06887}
+  m_LocalEulerAnglesHint: {x: -13.000885, y: 27.710106, z: 19.759727}
 --- !u!1 &1402409970728746
 GameObject:
   m_ObjectHideFlags: 0
@@ -44662,7 +44685,7 @@ Transform:
   m_Children:
   - {fileID: 4223199820665728}
   m_Father: {fileID: 4578414607419758}
-  m_LocalEulerAnglesHint: {x: -0.00006460252, y: 26.89816, z: 0.000059419344}
+  m_LocalEulerAnglesHint: {x: 0.00008483712, y: 82.70999, z: -0.0000050783024}
 --- !u!1 &1406013444572134
 GameObject:
   m_ObjectHideFlags: 0
@@ -44756,7 +44779,7 @@ Transform:
   m_Children:
   - {fileID: 4820325776863194}
   m_Father: {fileID: 4505784598048578}
-  m_LocalEulerAnglesHint: {x: -2.8006177, y: 75.18544, z: -11.697039}
+  m_LocalEulerAnglesHint: {x: 44.603054, y: 57.27831, z: -11.703343}
 --- !u!1 &1477749973039598
 GameObject:
   m_ObjectHideFlags: 0
@@ -44850,7 +44873,7 @@ Transform:
   m_Children:
   - {fileID: 4799235113479940}
   m_Father: {fileID: 4636819084062038}
-  m_LocalEulerAnglesHint: {x: 0.00086129474, y: -151.6942, z: -0.002109183}
+  m_LocalEulerAnglesHint: {x: 0.00044882685, y: -163.14963, z: -0.0024237547}
 --- !u!1 &1490721665351292
 GameObject:
   m_ObjectHideFlags: 0
@@ -49759,11 +49782,13 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 82a7b841a67e01c4ebb2e73662c7d17f, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54642,6 +54667,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -54729,7 +54757,7 @@ Transform:
   m_Children:
   - {fileID: 4255536198532084}
   m_Father: {fileID: 4505784598048578}
-  m_LocalEulerAnglesHint: {x: 11.7884035, y: 164.0683, z: 79.307175}
+  m_LocalEulerAnglesHint: {x: 5.592434, y: -176.59831, z: 118.00832}
 --- !u!1 &1574026500496134
 GameObject:
   m_ObjectHideFlags: 0
@@ -54761,7 +54789,7 @@ Transform:
   m_Children:
   - {fileID: 4578414607419758}
   m_Father: {fileID: 4505784598048578}
-  m_LocalEulerAnglesHint: {x: -2.8661213, y: -1.7230741, z: 68.32807}
+  m_LocalEulerAnglesHint: {x: -17.417578, y: -4.422728, z: 98.752846}
 --- !u!1 &1586002228612046
 GameObject:
   m_ObjectHideFlags: 0
@@ -59606,6 +59634,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -59762,6 +59793,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -64630,6 +64664,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -64717,7 +64754,7 @@ Transform:
   m_Children:
   - {fileID: 4008635443390156}
   m_Father: {fileID: 4484716086373432}
-  m_LocalEulerAnglesHint: {x: 6.8171177, y: -22.15589, z: 13.430754}
+  m_LocalEulerAnglesHint: {x: -23.711683, y: 28.522034, z: 5.899722}
 --- !u!1 &1647958930265092
 GameObject:
   m_ObjectHideFlags: 0
@@ -69546,6 +69583,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -69664,7 +69704,7 @@ Transform:
   m_Children:
   - {fileID: 4456875761896962}
   m_Father: {fileID: 4505784598048578}
-  m_LocalEulerAnglesHint: {x: -28.774889, y: 120.423164, z: 29.085327}
+  m_LocalEulerAnglesHint: {x: 1.6593704, y: 92.88164, z: 1.5968562}
 --- !u!1 &1663211197665048
 GameObject:
   m_ObjectHideFlags: 0
@@ -74522,11 +74562,13 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 33c8a6e40b0e58a429aa6c060b8028a2, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -74610,7 +74652,7 @@ Transform:
   m_Children:
   - {fileID: 4480259223185096}
   m_Father: {fileID: 4026964621557660}
-  m_LocalEulerAnglesHint: {x: 0.4494545, y: -27.183096, z: 18.992237}
+  m_LocalEulerAnglesHint: {x: -2.1670365, y: -10.026501, z: 14.649275}
 --- !u!1 &1723007087287224
 GameObject:
   m_ObjectHideFlags: 0
@@ -74674,7 +74716,7 @@ Transform:
   m_Children:
   - {fileID: 4370064956974938}
   m_Father: {fileID: 4505784598048578}
-  m_LocalEulerAnglesHint: {x: 65.063705, y: 123.554085, z: 74.96499}
+  m_LocalEulerAnglesHint: {x: -1.3297733, y: 174.5951, z: 1.5740384}
 --- !u!1 &1731062303725234
 GameObject:
   m_ObjectHideFlags: 0
@@ -74737,7 +74779,7 @@ Transform:
   m_Children:
   - {fileID: 4939849829654380}
   m_Father: {fileID: 4505784598048578}
-  m_LocalEulerAnglesHint: {x: -3.0803652, y: -108.86433, z: -0.25054288}
+  m_LocalEulerAnglesHint: {x: 38.21523, y: -108.86704, z: -5.561872}
 --- !u!1 &1754448574451518
 GameObject:
   m_ObjectHideFlags: 0
@@ -79547,6 +79589,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -84406,6 +84451,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -84512,6 +84560,9 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -89418,6 +89469,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -94538,6 +94592,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -94639,7 +94696,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
 --- !u!95 &95408953468183704
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94653,6 +94710,7 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 1
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -94670,6 +94728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c974c069622ac488eff39e86d2f59d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gunnerAudio: {fileID: 0}
   playerScanner:
     heightOffset: 2
     detectionRadius: 40
@@ -94787,7 +94846,7 @@ Transform:
   - {fileID: 4505784598048578}
   - {fileID: 4566788763055196}
   m_Father: {fileID: 4642058773065974}
-  m_LocalEulerAnglesHint: {x: 8.4856615, y: -5.3562317, z: -94.3843}
+  m_LocalEulerAnglesHint: {x: 3.8702154, y: -4.77827, z: -91.203636}
 --- !u!1 &1914846947782772
 GameObject:
   m_ObjectHideFlags: 0
@@ -94819,7 +94878,7 @@ Transform:
   m_Children:
   - {fileID: 4919254480675518}
   m_Father: {fileID: 4180275079425924}
-  m_LocalEulerAnglesHint: {x: 12.586663, y: -3.2492292, z: -9.726274}
+  m_LocalEulerAnglesHint: {x: 16.038097, y: -8.72629, z: 5.70081}
 --- !u!1 &1941886594610440
 GameObject:
   m_ObjectHideFlags: 0
@@ -94893,7 +94952,7 @@ Transform:
   - {fileID: 4741530164066608}
   - {fileID: 4163386601324546}
   m_Father: {fileID: 4271466715528528}
-  m_LocalEulerAnglesHint: {x: -9.420126, y: 7.8818464, z: 1.7043358}
+  m_LocalEulerAnglesHint: {x: -9.32153, y: 8.114646, z: 0.25300467}
 --- !u!114 &114820053008885524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94940,7 +94999,7 @@ Transform:
   m_Children:
   - {fileID: 4975479184673856}
   m_Father: {fileID: 4505784598048578}
-  m_LocalEulerAnglesHint: {x: -18.809309, y: 18.478058, z: 115.89049}
+  m_LocalEulerAnglesHint: {x: 1.6497096, y: 6.584676, z: -1.2580066}
 --- !u!1 &1997645873784422
 GameObject:
   m_ObjectHideFlags: 0
@@ -99829,6 +99888,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:

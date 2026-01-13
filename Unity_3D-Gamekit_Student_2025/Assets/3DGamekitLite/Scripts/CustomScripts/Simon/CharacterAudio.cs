@@ -36,7 +36,7 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
                 // Releases the EventInstance resources from memory
                 attackEventInstance.release();
             
-                Debug.Log("Combo is: " + comboValue);
+                //Debug.Log("Combo is: " + comboValue);
             }
         }
 
@@ -54,7 +54,7 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
                 // A switch statement that compares the surfaceTag and its content, and sets the Surface parameter with a unique value based on this
                 switch (surfaceTag)
                 {
-                    case "Grass":
+                    case "Marble":
                         footstepEventInstance.setParameterByName("Surface", 0f);
                         break;
                     case "BloodLake":
