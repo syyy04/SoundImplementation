@@ -7,15 +7,9 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
     [CreateAssetMenu(fileName = "EnemyAudio", menuName = "Scriptables/EnemyAudio")]
     public class EnemyAudio : ScriptableObject
     {
-        [SerializeField] private EventReference biteAttackEvent, spitAttackEvent, dieEvent, footstepEvent;
+        [SerializeField] private EventReference biteAttackEvent, spitAttackEvent, dieEvent;
 
-        private EventInstance biteAttackEventInstance, spitAttackEventInstance, dieEventInstance, footstepEventInstance;
-
-        public enum EnemyType
-        {
-            Chomper,
-            Spitter
-        }
+        private EventInstance biteAttackEventInstance, spitAttackEventInstance, dieEventInstance;
     
         public void BiteAttackEventPlay(GameObject obj)
         {
@@ -46,7 +40,7 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
                 spitAttackEventInstance.release();
             }
         }
-    
+        
         public void DieEventPlay(GameObject obj)
         {
             if (dieEvent.IsNull)
@@ -59,34 +53,6 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
                 RuntimeManager.AttachInstanceToGameObject(dieEventInstance, obj, obj.GetComponent<Rigidbody>());
                 dieEventInstance.start();
                 dieEventInstance.release();
-            }
-        }
-
-        public void FootstepEventPlay(string surfaceTag, GameObject obj)
-        {
-            if (footstepEvent.IsNull)
-            {
-                Debug.LogWarning("Event not found: footstepEvent");
-            }
-            else
-            {
-                footstepEventInstance = RuntimeManager.CreateInstance(footstepEvent);
-                RuntimeManager.AttachInstanceToGameObject(footstepEventInstance, obj, obj.GetComponent<Rigidbody>());
-
-                switch (surfaceTag)
-                {
-                    case "Grass":
-                        footstepEventInstance.setParameterByName("Surface", 0f);
-                        break;
-                    case "BloodLake":
-                        footstepEventInstance.setParameterByName("Surface", 1f);
-                        break;
-                    default:
-                        footstepEventInstance.setParameterByName("Surface", 0f);
-                        break;
-                }
-                footstepEventInstance.start();
-                footstepEventInstance.release();
             }
         }
     

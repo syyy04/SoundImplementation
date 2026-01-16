@@ -2907,7 +2907,7 @@ MonoBehaviour:
   hitSource: {fileID: 1286976262386736}
   frontStepSource: {fileID: 0}
   backStepSource: {fileID: 0}
-  chomperAudio: {fileID: 0}
+  chomperAudio: {fileID: 11400000, guid: aff130e4c228a44a0a071afb5b22bef9, type: 2}
 --- !u!114 &114700785457422906
 MonoBehaviour:
   m_ObjectHideFlags: 0

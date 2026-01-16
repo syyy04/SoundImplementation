@@ -59,7 +59,7 @@ public class AmbianceTrigger : MonoBehaviour
                 switch (i.action)
                 {
                     case EmitterAction.Play:
-                        AmbianceManager.instance.StopEmitter(i.ambType);
+                        AmbianceManager.instance.PlayEmitter(i.ambType);
                         break;
                     case EmitterAction.Stop:
                         AmbianceManager.instance.StopEmitter(i.ambType);

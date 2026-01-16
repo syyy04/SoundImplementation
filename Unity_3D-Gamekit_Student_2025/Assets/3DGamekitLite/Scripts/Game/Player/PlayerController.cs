@@ -526,7 +526,7 @@ namespace Gamekit3D
             RaycastHit hit;
             if (Physics.Raycast(footstepSource.transform.position, Vector3.down, out hit, 1f))
             {
-                Debug.Log("FootstepPlay on:" + hit.collider.tag);                  
+                //Debug.Log("FootstepPlay on:" + hit.collider.tag);                  
                 ellenAudio.FootstepEventPlay(hit.collider.tag, footstepSource);
 
             }
@@ -534,6 +534,27 @@ namespace Gamekit3D
             {
                 Debug.Log("No hit...");
             }
+        }
+
+        public void LandingPlay()
+        {
+            Debug.DrawRay(footstepSource.transform.position, Vector3.down * 1f, Color.red, 2f);
+            RaycastHit hit;
+            if (Physics.Raycast(footstepSource.transform.position, Vector3.down, out hit, 1f))
+            {
+                Debug.Log("FootstepPlay on:" + hit.collider.tag);                  
+                ellenAudio.LandEventPlay(hit.collider.tag, footstepSource);
+
+            }
+            else
+            {
+                Debug.Log("No hit...");
+            }
+        }
+        
+        public void JumpPlay()
+        {
+            ellenAudio.JumpEventPlay(footstepSource);
         }
         
         // This is called by an animation event when Ellen swings her staff.
@@ -657,6 +678,7 @@ namespace Gamekit3D
             CameraShake.Shake(CameraShake.k_PlayerHitShakeAmount, CameraShake.k_PlayerHitShakeTime);
 
             // Play an audio clip of being hurt.
+            ellenAudio.DamageEventPlay(voiceSource);
             
         }
 

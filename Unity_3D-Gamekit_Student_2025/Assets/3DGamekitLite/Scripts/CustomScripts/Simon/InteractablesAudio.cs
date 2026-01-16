@@ -45,7 +45,7 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
                     // Initializes an event instance with reference to the content of the EventReference doorEvent.
                     eventInstance = RuntimeManager.CreateInstance(doorEvent);
                     // Attaches the event instance to the door game object, using its transform and rigidbody components.
-                    RuntimeManager.AttachInstanceToGameObject(eventInstance, doorObj.transform, doorObj.GetComponent<Rigidbody>());
+                    RuntimeManager.AttachInstanceToGameObject(eventInstance, doorObj,doorObj.GetComponent<Rigidbody>());
                     eventInstance.start();
                 break;
                 case false:

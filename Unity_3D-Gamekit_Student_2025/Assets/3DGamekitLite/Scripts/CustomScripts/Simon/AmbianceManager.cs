@@ -8,6 +8,7 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
         Pool,
         Outside,
         Inside,
+        Splash
     }
 
     public class AmbianceManager : MonoBehaviour
@@ -16,7 +17,7 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
         public static AmbianceManager instance { get; private set; }
 
         // StudioEventEmitter variables that hold references to our ambiance events, located in child objects of the AmbianceManager parent object.
-        [SerializeField] private StudioEventEmitter poolEmitter, outsideEmitter, insideEmitter, pointerEmitter;
+        [SerializeField] private StudioEventEmitter poolEmitter, outsideEmitter, insideEmitter, splashEmitter, pointerEmitter;
 
         private void Awake()
         {
@@ -48,6 +49,10 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
 
                 case AmbType.Outside:
                     pointerEmitter = outsideEmitter;
+                    break;
+                
+                case AmbType.Splash:
+                    pointerEmitter = splashEmitter;
                     break;
 
             }

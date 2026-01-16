@@ -63,12 +63,69 @@ namespace _3DGamekitLite.Scripts.CustomScripts.Simon
                     default:
                         footstepEventInstance.setParameterByName("Surface", 0f);
                         break;
-                
-                    // TODO: Add more cases as needed for different surface types
                 }
             
                 footstepEventInstance.start();
                 footstepEventInstance.release();
+            }
+        }
+        
+        public void JumpEventPlay(GameObject obj)
+        {
+            if (jumpEvent.IsNull)
+            {
+                Debug.LogWarning("Event not found: jumpEvent");
+            }
+            else
+            {
+                jumpEventInstance = RuntimeManager.CreateInstance(jumpEvent);
+                RuntimeManager.AttachInstanceToGameObject(jumpEventInstance, obj, obj.GetComponent<Rigidbody>());
+                jumpEventInstance.start();
+                jumpEventInstance.release();
+            }
+        }
+
+        public void LandEventPlay(string surfaceTag, GameObject obj)
+        {
+            if (landEvent.IsNull)
+            {
+                Debug.LogWarning("Event not found: landEvent");
+            }
+            else
+            {
+                landEventInstance = RuntimeManager.CreateInstance(landEvent);
+                RuntimeManager.AttachInstanceToGameObject(landEventInstance, obj, obj.GetComponent<Rigidbody>());
+                
+                // A switch statement that compares the surfaceTag and its content, and sets the Surface parameter with a unique value based on this
+                switch (surfaceTag)
+                {
+                    case "Marble":
+                        footstepEventInstance.setParameterByName("Surface", 0f);
+                        break;
+                    case "BloodLake":
+                        footstepEventInstance.setParameterByName("Surface", 1f);
+                        break;
+                    default:
+                        footstepEventInstance.setParameterByName("Surface", 0f);
+                        break;
+                }
+                landEventInstance.start();
+                landEventInstance.release();
+            }
+        }
+
+        public void DamageEventPlay(GameObject obj)
+        {
+            if (damageEvent.IsNull)
+            {
+                Debug.LogWarning("Event not found: damageEvent");
+            }
+            else
+            {
+                damageEventInstance = RuntimeManager.CreateInstance(damageEvent);
+                RuntimeManager.AttachInstanceToGameObject(damageEventInstance, obj, obj.GetComponent<Rigidbody>());
+                damageEventInstance.start();
+                damageEventInstance.release();
             }
         }
     }

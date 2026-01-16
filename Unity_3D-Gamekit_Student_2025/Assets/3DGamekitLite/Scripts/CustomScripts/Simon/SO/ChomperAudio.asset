@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   biteAttackEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1414080162
+      Data2: 1227885150
+      Data3: -980485455
+      Data4: 1852956006
+    Path: event:/Enemy/BiteAttack
   spitAttackEvent:
     Guid:
       Data1: 0
@@ -28,15 +28,8 @@ MonoBehaviour:
     Path: 
   dieEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  footstepEvent:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 904075458
+      Data2: 1245762423
+      Data3: -1673482613
+      Data4: 504032182
+    Path: event:/Enemy/Die

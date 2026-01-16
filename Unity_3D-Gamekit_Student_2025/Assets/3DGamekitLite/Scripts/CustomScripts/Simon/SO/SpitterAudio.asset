@@ -21,22 +21,15 @@ MonoBehaviour:
     Path: 
   spitAttackEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -563313395
+      Data2: 1136930184
+      Data3: 154485396
+      Data4: -1383524042
+    Path: event:/Enemy/SpitAttack
   dieEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  footstepEvent:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 904075458
+      Data2: 1245762423
+      Data3: -1673482613
+      Data4: 504032182
+    Path: event:/Enemy/Die

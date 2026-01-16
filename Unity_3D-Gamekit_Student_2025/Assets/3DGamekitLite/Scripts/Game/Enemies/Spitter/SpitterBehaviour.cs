@@ -46,7 +46,7 @@ namespace Gamekit3D
 
         protected void OnEnable()
         {
-            spitterAudio = GetComponent<EnemyAudioHolder>().enemyAudio;
+            //spitterAudio = GetComponent<EnemyAudioHolder>().enemyAudio;
             
             m_Controller = GetComponentInChildren<EnemyController>();
 
@@ -113,12 +113,13 @@ namespace Gamekit3D
         public void Shoot()
         {
             rangeWeapon.Attack(m_RememberedTargetPosition);
+            spitterAudio.SpitAttackEventPlay(attackSource);
         }
 
         public void TriggerAttack()
         {
             m_Controller.animator.SetTrigger(hashAttack);
-            spitterAudio.SpitAttackEventPlay(attackSource);
+            
         }
 
         public void RememberTargetPosition()

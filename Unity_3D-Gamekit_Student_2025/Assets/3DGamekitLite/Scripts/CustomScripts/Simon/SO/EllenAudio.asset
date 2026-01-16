@@ -28,22 +28,22 @@ MonoBehaviour:
     Path: event:/Avatar/PlayerFootsteps
   jumpEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -218158914
+      Data2: 1231782737
+      Data3: 184835207
+      Data4: -971208911
+    Path: event:/Avatar/Jump
   landEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1159772766
+      Data2: 1196518664
+      Data3: -1322558581
+      Data4: -95935561
+    Path: event:/Avatar/Land
   damageEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1218627065
+      Data2: 1170862572
+      Data3: 389205909
+      Data4: -448312148
+    Path: event:/Avatar/TakeDamage

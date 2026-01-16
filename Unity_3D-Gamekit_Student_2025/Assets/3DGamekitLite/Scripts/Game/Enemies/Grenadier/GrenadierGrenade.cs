@@ -12,6 +12,12 @@ namespace Gamekit3D
             LOWEST_SPEED,
             MOST_DIRECT
         }
+        
+        public enum ProjectileType
+        {
+            GRENADE,
+            SPIT
+        }
 
         public ShotType shotType;
         public float projectileSpeed;
@@ -22,6 +28,7 @@ namespace Gamekit3D
         public ParticleSystem explosionVFX;
         [Tooltip("Will the explosion VFX play where the grenade explode or on the closest ground")]
         public bool vfxOnGround = false;
+        public ProjectileType projectileType;
 
         public GameObject explosionPlayer;
         public GameObject bouncePlayer;
@@ -128,7 +135,11 @@ namespace Gamekit3D
                 }
             }
 
-            gunnerAudio.GrenadeAttackEventPlay(explosionPlayer);
+            if (projectileType == ProjectileType.GRENADE)
+            {
+                gunnerAudio.GrenadeAttackEventPlay(explosionPlayer);
+            }
+            
             
             m_VFXInstance.gameObject.transform.position = playPosition;
             m_VFXInstance.gameObject.transform.up = playNormal;

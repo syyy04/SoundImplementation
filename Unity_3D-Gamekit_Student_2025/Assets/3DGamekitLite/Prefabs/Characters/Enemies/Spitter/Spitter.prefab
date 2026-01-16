@@ -1982,7 +1982,6 @@ GameObject:
   - component: {fileID: 65583866204139870}
   - component: {fileID: 114262391854553980}
   - component: {fileID: 54840076793666620}
-  - component: {fileID: 4562414774011311897}
   m_Layer: 23
   m_Name: Spitter
   m_TagString: Untagged
@@ -2058,7 +2057,7 @@ MonoBehaviour:
   frontStepSource: {fileID: 1464353425581764}
   backStepSource: {fileID: 1532135836453988}
   hitSource: {fileID: 1890070172687782}
-  spitterAudio: {fileID: 0}
+  spitterAudio: {fileID: 11400000, guid: 363b2ddc778614e2d8edf357cf5bc42f, type: 2}
 --- !u!114 &114437624635966428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2190,19 +2189,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4562414774011311897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1500461124768838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa3adde44326b4e4ab7d06bcc17cbae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyAudio: {fileID: 11400000, guid: 363b2ddc778614e2d8edf357cf5bc42f, type: 2}
 --- !u!1 &1528829956455804
 GameObject:
   m_ObjectHideFlags: 0
